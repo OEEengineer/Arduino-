@@ -6,10 +6,10 @@
 #include "esp_camera.h"
 
 // ================= WiFi 配置 =================
-const char* ssid = "华为畅享 60";
-const char* password = "qwertyuiop";
-const char* faceServerUrl = "http://192.168.43.221:5000/upload";       
-const char* objectServerUrl = "http://192.168.43.221:5000/upload_object"; 
+const char* ssid = "ssid";
+const char* password = "password";
+const char* faceServerUrl = "http://192.168.电脑地址:5000/upload";       
+const char* objectServerUrl = "http://192.168.电脑地址:5000/upload_object"; 
 
 // ================= 引脚定义 =================
 #define PWDN_GPIO_NUM    32
