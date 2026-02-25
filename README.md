@@ -35,7 +35,7 @@ AI+Arduino智能家居
 *   **开发环境**：Arduino IDE / Python 3.11 
 *   **Python库**：`face_recognition`, `opencv-python`, `requests` ,`dashscope`,`flask`,`dlib`
 *   **API**：千问API（或其他大模型API）
-*   **Arduino库**：`WiFi.h`, `HTTPClient.h`, `Wire.h`,`Adafruit_GFX.h`,`Adafruit_SSD1306.h`,`"esp_camera.h"`
+*   **Arduino库**：`WiFi.h`, `HTTPClient.h`, `Wire.h`,`Adafruit_GFX.h`,`Adafruit_SSD1306.h`,`"esp_camera.h"`，`LiquidCrystal_I2C.h`,`DHT11`,`SoftwareSerial.h`
 
 ## 🚀 快速开始
 
