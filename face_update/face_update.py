@@ -9,12 +9,13 @@ import base64
 from dashscope import MultiModalConversation
 
 # ================= 配置 =================
-DASHSCOPE_API_KEY = os.environ.get("DASHSCOPE_API_KEY", "sk-ad5bf06369e7421db86c1c97bfc2a0d7")
+#将你的API_KEY添加到环境变量
+DASHSCOPE_API_KEY = os.environ.get("DASHSCOPE_API_KEY")
 dashscope.api_key = DASHSCOPE_API_KEY
 
 # 人脸库路径
-FACE_IMAGES = ["liu.jpg", "chen.jpg", "guo.jpg","lu.jpg","xie.jpg"]
-FACE_NAMES = ["liu de hua", "chen yu lin", "guo fu cheng","lu xiang yu","xie yu hang"]
+FACE_IMAGES = ["liu.jpg", "guo.jpg",]
+FACE_NAMES = ["liu de hua", "guo fu cheng"]
 
 app = Flask(__name__)
 CORS(app)  # 允许跨域
@@ -145,3 +146,4 @@ def upload_object():
 if __name__ == '__main__':
     # threaded=True 允许同时处理多个请求
     app.run(host='0.0.0.0', port=5000, debug=False, threaded=True)
+
