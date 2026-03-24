@@ -54,9 +54,7 @@ AI+Arduino智能家居
     <img width="377" height="503" alt="IMG_20260324_150257" src="https://github.com/user-attachments/assets/cab924ad-5223-479b-95e6-c67b30b59d18" />
     <img width="377" height="503" alt="IMG_20260324_150208" src="https://github.com/user-attachments/assets/95e83580-100c-438f-9271-f4daef8b1d25" />
     
-    ![954cc71bfca8e0f053951ea05c1da3bd](https://github.com/user-attachments/assets/04aa2190-34ac-412e-8386-3a0839d4c514)
-    ![IMG_20260324_150257](https://github.com/user-attachments/assets/cab924ad-5223-479b-95e6-c67b30b59d18)
-    ![IMG_20260324_150208](https://github.com/user-attachments/assets/95e83580-100c-438f-9271-f4daef8b1d25)
+    
 
 
 
